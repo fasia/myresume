@@ -1,0 +1,16 @@
+# Associations
+# comment out the urls if you do not wish to display them
+
+- organization: Women in Tech
+  role: member
+  year: 2016 &mdash; present
+  url: https://women-in-tech.org/
+  summary: Active in the events and group meetings.
+
+
+- organization: Women Techmakers
+  role: member
+  year: 2016 &mdash; present
+  url: https://www.womentechmakers.com/
+  summary: Active in the events and meetings.
+

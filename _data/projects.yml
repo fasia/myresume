@@ -1,0 +1,17 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+
+# MegaModelling at Runtime
+- project: MegaModelling at Runtime
+  role: Researcher
+  duration: 2018 &mdash; 2020
+  url: "https://research.abo.fi/en/projects/megamodelling-at-runtime"
+  description: An EU funding project on scalable model-based framework for continuous development and runtime validation of complex systems.
+
+# PAM Project
+- project: PAM 
+  role: Researcher
+  duration: 2012 &mdash; 2015
+  url: "https://research.abo.fi/en/projects/practical-applications-of-model-based-technologies-to-continuous-"
+  description: Practical Applications of Model-based technologies to continuous integration & testing methodologies.
