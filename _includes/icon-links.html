@@ -1,15 +1,19 @@
 <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
 {% if site.resume_social_links %}
 <ul class="icon-links">
+  <!-- Gitlab link -->
+  {% if site.resume_social_links.resume_gitlab_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_gitlab_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-gitlab.html %}</a></li>
+  {% endif %}
 
   <!-- GitHub link -->
   {% if site.resume_social_links.resume_github_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-github.html %}</a></li>
   {% endif %}
 
-  <!-- Twitter link -->
-  {% if site.resume_social_links.resume_twitter_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_twitter_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-twitter.html %}</a></li>
+  <!-- Mail link -->
+  {% if site.resume_social_links.resume_mail_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_mail_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-mail.html %}</a></li>
   {% endif %}
   
   <!-- Medium link -->

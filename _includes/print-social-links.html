@@ -2,14 +2,19 @@
 {% if site.resume_print_social_links %}
 <ul>
 
+   <!-- GitLab link -->
+   {% if site.resume_social_links.resume_gitlab_url %}
+   <li><strong>Gitlab</strong>: {{ site.resume_social_links.resume_gitlab_url }}</li>
+   {% endif %}
+
   <!-- GitHub link -->
   {% if site.resume_social_links.resume_github_url %}
   <li><strong>Github</strong>: {{ site.resume_social_links.resume_github_url }}</li>
   {% endif %}
 
-  <!-- Twitter link -->
-  {% if site.resume_social_links.resume_twitter_url %}
-  <li><strong>Twitter</strong>: {{ site.resume_social_links.resume_twitter_url }}</li>
+  <!-- mail link -->
+  {% if site.resume_social_links.resume_mail_url %}
+  <li><strong>mail</strong>: {{ site.resume_social_links.resume_mail_url }}</li>
   {% endif %}
 
   <!-- Dribbble link -->

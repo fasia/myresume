@@ -17,7 +17,7 @@
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
-        <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
+        <h2 class="header-name" itemprop="name">{{ site.resume_name }}</h2>
 
         <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
         {% if site.display_header_contact_info == 'true' %}
@@ -115,6 +115,25 @@
 
       </section>
       <!-- end Projects -->
+      {% endif %}
+
+      {% if site.resume_section_publications %}
+      <!-- begin Publications -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Publications</h2>
+        </header>
+
+        {% for publication in site.data.publications %}
+        <div class="resume-item-details" itemscope itemtype="http://schema.org/CreativeWork">
+          <p><li><b>{% if publication.url %}<a href="{{ publication.url }}" itemprop="url">{{ publication.publication}}</a>{% else %}{{ publication.publication}}{% endif %},
+          </b>{{ publication.authors }}, {{ publication.org}}, {{ publication.year }}
+        </li></p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Publications -->
       {% endif %}
 
       {% if site.resume_section_skills %}
@@ -230,11 +249,6 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
-
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
 
     </div>
 

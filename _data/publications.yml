@@ -1,0 +1,58 @@
+- publication: Model-Based Verification and Testing of Web Services
+  url: https://www.doria.fi/bitstream/handle/10024/176843/siavashi_faezeh.pdf
+  authors: Faezeh Siavashi
+  type: PhD thesis
+  org: PhD Thesis, Åbo Akademi University
+  year: 2020
+
+- publication: Vulnerability Assessment of Web Services with Model-Based Mutation Testing
+  url: https://ieeexplore.ieee.org/document/8424981
+  org:  IEEE International Conference on Software Quality, Reliability and Security (QRS)
+  type: Conference paper
+  year: 2018
+  authors: F Siavashi, D Truscan, J Vain.
+
+- publication: Testing Web Services with Model-Based Mutation
+  url: https://link.springer.com/chapter/10.1007/978-3-319-62569-0_3
+  org: Springer Communications in Computer and Information Science (CCIS)
+  type: Book chapter
+  year: 2017
+  authors: F Siavashi, D Truscan, J Iqbal, J Vain
+
+- publication: On Mutating UPPAAL Timed Automata to Assess Robustness of Web Services
+  url: https://www.scitepress.org/Link.aspx?doi=10.5220/0005970800150026
+  org: International Joint Conference on Software Technologies - ICSOFT
+  year: 2016
+  authors: F siavashi, D Truscan, J Vain
+
+- publication: Scenario-Based Design and Validation of REST Web Service Compositions
+  url: https://link.springer.com/chapter/10.1007/978-3-319-27030-2_10
+  org: LNBIP LNCS
+  year: 2015
+  authors: I Rauf, F Siavashi, D Truscan, I Porres
+
+- publication: Environment Modeling in Model-Based Testing-- Concepts, Prospects, and Research Challenges. A Systematic Literature Review
+  url: https://dl.acm.org/doi/10.1145/2745802.2745830
+  org: ACM International Conference on Evaluation and Assessment in Software Engineering (EASE)
+  year: 2015
+  authors: F Siavashi, D Truscan
+
+- publication: A Practical Application of UPPAAL and DTRON for Runtime Verification
+  url: https://ieeexplore.ieee.org/document/7212161
+  org: IEEE International Workshop on Software Engineering Research and Industrial Practice (SERIP)
+  year: 2015
+  author: D Truscan, T Ahmad, F Siavashi, P Tuuttila
+
+- publication: An Integrated Approach Designing and Validating REST Web Service Compositions
+  url: https://www.scitepress.org/PublicationsDetail.aspx?ID=bqm58k2tnF8=&t=1
+  org:  International Conference on Web Information Systems and Technologies (WEBIST)
+  year: 2014
+  authors: I Rauf, F Siavashi, D Truscan, I Porres
+
+- publication:  Modelling Critical Systems with Time Constraints in Event-B
+  url: https://www.semanticscholar.org/paper/Modeling-Critical-Systems-with-Timing-Constraints-Siavashi-Wald%C3%A9n/9fea4303b7cf22393771fb61982fc3d061abe051
+  org:  Nordic Workshop on Programming Theory (NWPT)
+  year: 2013
+  authors: F Siavashi, M Walden, L Tsiopoulos, J Vain
+
+
